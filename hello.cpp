@@ -2,14 +2,14 @@
 #include <string>
 
 int main() {
-    // Объявляем переменную для хранения имени пользователя
+   // Declare a variable to store the user name.
     std::string name;
     
-    // Запрашиваем имя пользователя через стандартный поток ввода
+    // Prompt the user for their name.
     std::cout << "Enter your name: ";
     std::cin >> name;
     
-    // Выводим персонализированное приветствие
+    // Print a personalized greeting.
     std::cout << "Hello world from @" << name << std::endl;
     
     return 0;
